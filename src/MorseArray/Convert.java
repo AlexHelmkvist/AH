@@ -18,9 +18,9 @@ public class Convert {
 
         StringBuilder str = new StringBuilder();
 
-        for (int i = 0; i < c.length; i++) {
+        for (char value : c) {
             for (int j = 0; j < english.length; j++) {
-                if (english[j].equalsIgnoreCase(String.valueOf(c[i]))) {
+                if (english[j].equalsIgnoreCase(String.valueOf(value))) {
                     str.append(morse[j]).append(" ");
 
                 }
