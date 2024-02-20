@@ -22,6 +22,7 @@ public class Convert {
             for (int j = 0; j < english.length; j++) {
                 if (english[j].equalsIgnoreCase(String.valueOf(value))) {
                     str.append(morse[j]).append(" ");
+
                 }
 
             }
