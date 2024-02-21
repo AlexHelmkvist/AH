@@ -119,7 +119,7 @@ public class Translator {
             }
         }
         // Returnera resultatet som en sträng
-        return result.toString();
+        return result.toString().trim();
     }
 
 }
