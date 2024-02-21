@@ -28,7 +28,7 @@ public class Convert {
             }
         }
 
-        return str.toString();
+        return str.toString().trim();
     }
 
     public String getLetters(String code) {
